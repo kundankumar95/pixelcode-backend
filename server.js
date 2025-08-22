@@ -287,8 +287,8 @@ router.post("/create-checkout-session", async (req, res) => {
         },
       ],
       mode: "payment",
-      success_url: "http://localhost:3000/success",
-      cancel_url: "http://localhost:3000/cancel",
+      success_url: "https://pixelcodelearningplatform.vercel.app//success",
+      cancel_url: "https://pixelcodelearningplatform.vercel.app//cancel",
       customer_email: email,
     });
 
